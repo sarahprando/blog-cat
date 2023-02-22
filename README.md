@@ -8,4 +8,5 @@
   <img alt="Sarah-figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 </div>
 <br>
- <p align="center"><img width="400" src="https://user-images.githubusercontent.com/81649794/220627109-d40e4960-c352-4acf-8586-25da57ab3d2b.jpg"></p>
+ <p align="center"><img width="400" src="https://user-images.githubusercontent.com/81649794/220633737-f6afad7c-c9d2-4af2-a126-b89c94a09faf.jpg"></p>
+
