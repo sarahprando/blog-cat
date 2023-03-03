@@ -1,0 +1,17 @@
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    background: rgb(246, 245, 236);
+    height: 300px;
+    width: 100%;
+  }
+
+.topbar {
+    background: rgb(112, 90, 67,0.25);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
