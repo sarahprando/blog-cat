@@ -8,7 +8,7 @@
 .topbar {
     background: rgb(112, 90, 67,0.25);
     height: 30px;
-    display: -webkit-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
   }
