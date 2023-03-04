@@ -1,19 +1,22 @@
 
 .topbar {
   display: flex;
-  justify-content: flex-end;
   height: 35px;
   background: rgb(112, 90, 67,0.25);
+}
+
+.container__socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1370px;
 }
 
 .socials {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  margin: 0 95px;
-  padding-bottom: 1px;
-  max-width: 350px;
-  background-color: transparent;
+  justify-content: space-between;
+  margin-right: 90px;
 }
 
 .header {
@@ -26,8 +29,8 @@
 
 .logo {
     display: flex;
-    justify-content: space-between;
-    margin: 0 215px;
+    align-items: center;
+    margin-left: 150px;
     max-width: 200px;
     max-height: 150px;
 }

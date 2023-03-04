@@ -9,8 +9,7 @@
   }
   
   img {
-    vertical-align: middle;
-    background-color: transparent;
+    width: auto;
     cursor: pointer;
   }
 
@@ -19,17 +18,13 @@
     height: 30px;
     margin: 0;
   }
-
-  a {
-    background-color: transparent;
-  }
   
   header {
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     padding: 0px;
   }
 
-  p, span, strong, h3 {
+  p, span, strong, h3, a, img,div {
     background-color: transparent;
   }
