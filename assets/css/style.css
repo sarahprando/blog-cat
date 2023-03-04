@@ -1,8 +1,17 @@
 
 .topbar {
-  display: flex;
-  height: 35px;
   background: rgb(112, 90, 67,0.25);
+  display: flex;
+  justify-content: center;
+}
+
+.topbar__container {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  justify-content: space-between;
+  max-width: 100%;
+  align-items: center;
 }
 
 .container__socials {
