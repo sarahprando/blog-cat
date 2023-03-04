@@ -11,7 +11,11 @@
   img {
     vertical-align: middle;
     background-color: transparent;
+    cursor: pointer;
+  }
 
+  a {
+    background-color: transparent;
   }
   
   header {
