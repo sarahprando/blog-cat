@@ -2,7 +2,7 @@
 
 <p align="center">🛠️ Under Construction</p>
 <div style="display: inline_block" align="center">
- <a href="https://www.figma.com/proto/RBSB2aG8Gw9ux51qL3JgB5/blog-cat?page-id=0%3A1&node-id=1%3A5&viewport=-193%2C367%2C0.57&scaling=min-zoom"> Link da prévia </a>
+ <a href="https://www.figma.com/proto/RBSB2aG8Gw9ux51qL3JgB5/blog-cat?page-id=0%3A1&node-id=1%3A5&viewport=-193%2C367%2C0.57&scaling=min-zoom"> Prototype 😸 </a>
  </div>
 
 <div style="display: inline_block" align="center"><br>
