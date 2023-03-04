@@ -11,5 +11,5 @@
   <img alt="Sarah-figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 </div>
 <br>
- <p align="center"><img src="assets/img/logo.png"></p>
+ <p align="center"><img height="148" width="211" src="assets/img/logo.png"></p>
 
