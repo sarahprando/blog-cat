@@ -17,3 +17,7 @@
     margin: 0 auto;
     padding: 0px;
   }
+
+  p, span, strong, h3 {
+    background-color: transparent;
+  }

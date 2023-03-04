@@ -12,3 +12,16 @@
     align-items: center;
     justify-content: center;
   }
+
+  #logo {
+    position: fixed;
+    top: 15px;
+    left: 215px;
+    right: 1494px;
+    max-width: 211px; 
+    max-height: 148px;
+  }
+
+   /* Colors:
+  margin-left: 215px;;
+   margin-right: 1494px;  */   
