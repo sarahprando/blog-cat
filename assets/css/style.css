@@ -1,9 +1,19 @@
 
 .topbar {
+  display: flex;
+  justify-content: flex-end;
   height: 35px;
   background: rgb(112, 90, 67,0.25);
 }
 
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1px;
+  max-width: 350px;
+  background-color: transparent;
+}
 
 .header {
   display: flex;

@@ -14,6 +14,10 @@
     cursor: pointer;
   }
 
+  socials {
+    width: 100%;
+  }
+
   a {
     background-color: transparent;
   }
