@@ -6,13 +6,13 @@
   justify-content: flex-end;
 }
 
+  
 .topbar__container {
   display: flex;
   align-items: center;
   height: 35px;
   margin-left: 1370px;
 }
-
 .social__container {
   display: flex;
   justify-content: flex-end;
@@ -54,4 +54,21 @@
     margin-right: 180px;
     max-width: 200px;
     max-height: 140px;
+}
+
+.menu__container {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.menu {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__item {
+  
 }
