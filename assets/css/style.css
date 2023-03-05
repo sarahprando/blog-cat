@@ -12,13 +12,14 @@
   margin-left: 1370px;
 }
 
-.container__socials {
+.container__social {
   display: flex;
   justify-content: flex-end;
   margin-right: 150px;
 }
 
-.socials {
+.social {
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
