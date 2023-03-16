@@ -72,3 +72,10 @@
 .menu__item {
   
 }
+
+@media screen and (max-width: 992px) {
+  .topbar__container, .social {
+    height: 10px;
+    width: 10px;
+  }
+}
