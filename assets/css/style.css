@@ -2,30 +2,33 @@
 .topbar {
   background: rgb(112, 90, 67,0.25);
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
-  
 .topbar__container {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 1300px;
   align-items: center;
-  height: 35px;
-  margin-left: 1370px;
-}
-.social__container {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 150px;
+  padding: 4px 0;
 }
 
-.social {
+.topbar__item1 .containner--item1,
+.topbar__item2 .containner--item2,
+.topbar__item3 .containner--item3,
+.topbar__item4 .containner--item4 {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-end;
-  margin-left: 90px;
-  max-width: 30px;
-  max-height: 30px;
+}
+
+.topbar__item1 .icon_topbar, 
+.topbar__item2 .icon_topbar, 
+.topbar__item3 .icon_topbar,
+.topbar__item4, .icon_topbar {
+  margin-right: 90px;
+  display: flex;
 }
 
 .header {
