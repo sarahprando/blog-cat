@@ -1,17 +1,27 @@
 * {
     font-family: 'Lato', sans-serif;
-    background-color: #fff;
     margin: 0px;
     padding: 0px;
     border: none;
     list-style-type: none;
-    box-sizing: border-box
+    box-sizing: border-box;
+  }
+
+  div {
+    margin: 0;
+    padding: 0; 
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
   }
   
-  img {
-    width: auto;
-    margin: auto;
+  social {
     cursor: pointer;
+    max-height: 20px;
+    max-width: 20px;
   }
 
   header {
@@ -20,14 +30,5 @@
     padding: 0px;
   }
   
-  html, body {
-    display: block;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
 
-  p, span, strong, h3, a, img,div {
-    background-color: transparent;
-  }
 

@@ -1,31 +1,33 @@
 
 .topbar {
   background: rgb(112, 90, 67,0.25);
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
 }
 
-  
 .topbar__container {
   display: flex;
   align-items: center;
-  height: 35px;
-  margin-left: 1370px;
-}
-.social__container {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 150px;
+  justify-content: center;
+  max-width: 1300px;
+  margin: auto;
+  padding: 8px 0 7px;
+  height: 30px;
 }
 
-.social {
+.topbar__item1,
+.topbar__item2,
+.topbar__item3,
+.topbar__item4  {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: flex-end;
-  margin-left: 90px;
-  max-width: 30px;
-  max-height: 30px;
+}
+
+ .icon_topbar, 
+ .icon_topbar, 
+ .icon_topbar,
+ .icon_topbar {
+  margin-right: 90px;
+  display: flex;
 }
 
 .header {
@@ -69,13 +71,8 @@
   justify-content: space-between;
 }
 
-.menu__item {
-  
-}
-
 @media screen and (max-width: 992px) {
    .topbar__container, .social {
-    scroll-timeline-axis: 5;
     height: 20px;
     width: 20px;
   }
