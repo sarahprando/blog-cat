@@ -20,10 +20,8 @@
   
   social {
     cursor: pointer;
-  }
-
-  containner--item1, containner--item2, containner--item3, containner--item4 {
-    background-color: transparent;
+    max-height: 20px;
+    max-width: 20px;
   }
 
   header {
@@ -32,12 +30,5 @@
     padding: 0px;
   }
   
-  html, body {
-    display: block;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
 
 
