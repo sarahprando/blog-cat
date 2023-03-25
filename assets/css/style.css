@@ -38,6 +38,19 @@
   max-height: 25px;
 }
 
+.header {
+  background: #F6F5EC;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1300px;
+  height: 150px;
+}
+
 @media screen and (max-width: 992px) {
  .topbar, .topbar__container, .social, .icon_topbar {
   display: none;
