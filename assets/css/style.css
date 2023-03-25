@@ -57,12 +57,12 @@
 }
 
 @media screen and (max-width: 992px) {
- .topbar, .topbar__container, .social, .icon_topbar {
+ .topbar__container, .icon_topbar {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
-  padding: 0 4px;
+  padding: 0 15px;
   }
 }
 
