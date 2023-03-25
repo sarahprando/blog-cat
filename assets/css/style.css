@@ -38,47 +38,6 @@
   max-height: 25px;
 }
 
-.header {
-  background: rgb(246, 245, 236);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.header__container {
-  display: flex;
-  align-items: center;
-  height: 150px;
-  margin-left: 150px;
-}
-
-.logo__container {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-right: 180px;
-    max-width: 200px;
-    max-height: 140px;
-}
-
-.menu__container {
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 150px;
-}
-
-.menu {
-  align-items: center;
-  justify-content: space-between;
-}
-
 @media screen and (max-width: 992px) {
   .social, .icon_topbar {
     align-items: center;
