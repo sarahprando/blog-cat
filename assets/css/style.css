@@ -30,6 +30,14 @@
   display: flex;
 }
 
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 25px;
+  max-height: 25px;
+}
+
 .header {
   background: rgb(246, 245, 236);
   display: flex;
