@@ -39,11 +39,8 @@
 }
 
 @media screen and (max-width: 992px) {
-  .social, .icon_topbar {
-    align-items: center;
-    margin-left: 5px;
-    height: 25px;
-    width: 25px;
+ .topbar, .topbar__container, .social, .icon_topbar {
+  display: none;
   }
 }
 
