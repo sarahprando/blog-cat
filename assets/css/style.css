@@ -38,10 +38,9 @@
   max-height: 25px;
 }
 
-/* div.social:hover, div.social:before {
-  color: red;
+div.icon_topbar img:hover {
+  color: #858585;
 }
-*/
 
 .header {
   background: #F6F5EC;
@@ -76,17 +75,17 @@
   justify-content: space-around;
 }
 
-a:link {
+div.container-op a:link {
   color: #090705;
   text-decoration: none;
 }
 
-a:visited {
+div.container-op a:visited {
   color: #090705;
   text-decoration: none;
 }
 
-a:hover {
+div.container-op a:hover {
   color: #858585;
 }
 
