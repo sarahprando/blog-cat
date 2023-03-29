@@ -38,10 +38,6 @@
   max-height: 25px;
 }
 
-div.icon_topbar:hover > img {
-  color: #858585;
-}
-
 .header {
   background: #F6F5EC;
 }
