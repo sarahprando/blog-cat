@@ -90,14 +90,18 @@ div.container-op a:hover {
   z-index: 3;
 }
 
-.header__menu button {
-  background: none;
-  padding-left: 0;
-}
-
 .button--menu {
   display: none;
 }
+
+#button {
+  display: none;
+}
+
+#button ~ ul {
+  right: 0;
+}
+
 
 @media screen and (max-width: 992px) {
  .topbar__container, .icon_topbar {
@@ -123,13 +127,24 @@ div.container-op a:hover {
    display: none;
   }
 
-  .button--menu, .menu {
+  .button--menu, .hamburguer, #button {
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 40px;
     max-height: 40px;
     background: transparent;
+  }
+
+  nav ul {
+    list-style: none;
+    background: #F6F5EC;
+    height: auto;
+    right: -100%;
+  }
+  
+  nav ul li {
+    padding: 20px;
   }
 
 }
