@@ -85,23 +85,21 @@ div.container-op a:hover {
   color: #858585;
 }
 
+.header__menu {
+  position: relative;
+  z-index: 3;
+}
+
+.header__menu button {
+  background: none;
+  padding-left: 0;
+}
+
 .button--menu {
   display: none;
 }
 
-@media screen and (min-width: 992px){
-
-.button--menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 25px;
-  max-height: 25px;
-  background: transparent;
- }
-}
-
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 992px) {
  .topbar__container, .icon_topbar {
   display: flex;
   align-items: center;
@@ -116,8 +114,23 @@ div.container-op a:hover {
     justify-content: center;
   }
 
+  .logo {
+      max-width: 200px;
+      max-height: 125px;
+      margin: 10px;
+  }
+
   .container-navbar {
    display: none;
+  }
+
+  .button--menu, .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 40px;
+    max-height: 40px;
+    background: transparent;
   }
 
 }
