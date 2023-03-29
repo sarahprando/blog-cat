@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin: 0 auto;
+  margin: auto;
   max-width: 1350px;
   padding: 8px 0 9px;
   height: 30px;
@@ -130,7 +130,7 @@ div.container-op a:hover {
 
 @media screen and (min-width: 992px){
   
- a:hover img{
+  .icon_topbar a:hover img{
   filter: drop-shadow(#858585);
   opacity: 0.7;
  }  
