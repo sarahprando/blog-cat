@@ -1,6 +1,5 @@
-
 .topbar {
-  background: rgb(112, 90, 67,0.25);
+  background: rgb(112, 90, 67, 0.25);
 }
 
 .topbar__container {
@@ -16,16 +15,16 @@
 .topbar__item1,
 .topbar__item2,
 .topbar__item3,
-.topbar__item4  {
+.topbar__item4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
- .icon_topbar, 
- .icon_topbar, 
- .icon_topbar,
- .icon_topbar {
+.icon_topbar,
+.icon_topbar,
+.icon_topbar,
+.icon_topbar {
   margin-left: 90px;
   display: flex;
 }
@@ -52,8 +51,12 @@
 }
 
 .logo {
-    max-width: 200px;
-    max-height: 140px;
+  max-width: 200px;
+  max-height: 140px;
+}
+
+.button--menu {
+  display: none;
 }
 
 .container-navbar ul {
@@ -85,40 +88,31 @@ div.container-op a:hover {
   color: #858585;
 }
 
-.header__menu {
-  position: relative;
-  z-index: 3;
-}
-
-.button--menu {
-  display: none;
-}
-
 @media screen and (max-width: 992px) {
- .topbar__container, .icon_topbar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 30px;
+
+  .topbar__container,
+  .icon_topbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
   }
 
-  .header__container, .logo {
+  .header__container,
+  .logo {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
   }
 
   .logo {
-      max-width: 200px;
-      max-height: 125px;
-      margin: 10px;
+    max-width: 200px;
+    max-height: 125px;
+    margin: 10px;
   }
 
-  .container-navbar {
-   display: none;
-  }
-
-  .button--menu, .hamburguer {
+  .button--menu,
+  .hamburguer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,10 +122,10 @@ div.container-op a:hover {
   }
 }
 
-@media screen and (min-width: 992px){
-  
-  .icon_topbar a:hover img{
-  filter: drop-shadow(#858585);
-  opacity: 0.7;
- }  
+@media screen and (min-width: 992px) {
+
+  .icon_topbar a:hover img {
+    filter: drop-shadow(#858585);
+    opacity: 0.7;
+  }
 }
