@@ -38,11 +38,6 @@
   max-height: 25px;
 }
 
-a:hover img{
-  filter: drop-shadow(#858585);
-  opacity: 0.7;
-}
-
 .header {
   background: #F6F5EC;
 }
@@ -131,4 +126,12 @@ div.container-op a:hover {
     max-height: 40px;
     background: transparent;
   }
+}
+
+@media screen and (min-width: 992px){
+  
+ a:hover img{
+  filter: drop-shadow(#858585);
+  opacity: 0.7;
+ }  
 }
