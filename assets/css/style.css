@@ -63,11 +63,7 @@
 }
 
 .menu li {
-  height: 100%;
   margin-left: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .menu a:link {
