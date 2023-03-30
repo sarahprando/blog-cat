@@ -55,14 +55,14 @@
   max-height: 140px;
 }
 
-.container-navbar ul {
+.menu ul {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.container-navbar li {
+.menu li {
   height: 100%;
   margin-left: 70px;
   display: flex;
@@ -70,17 +70,17 @@
   justify-content: space-around;
 }
 
-div.container-op a:link {
+.menu a:link {
   color: #090705;
   text-decoration: none;
 }
 
-div.container-op a:visited {
+.menu a:visited {
   color: #090705;
   text-decoration: none;
 }
 
-div.container-op a:hover {
+.menu a:hover {
   color: #858585;
 }
 
@@ -100,7 +100,7 @@ div.container-op a:hover {
     justify-content: center;
   }
 
-  .container-navbar {
+  .menu {
     display: none;
   }
 }
