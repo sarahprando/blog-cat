@@ -58,19 +58,8 @@
 .menu {
   width: 100%;
   height: 50px;
+  background-color: #222;
 }
-
-.header__container .menu {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.menu li {
-  margin-left: 70px;
-}
-
 
 .menu>ul {
   list-style: none;
@@ -78,15 +67,63 @@
   margin-left: 50px;
 }
 
-
 .menu ul li {
+  width: 150px;
   float: left;
 }
 
 .menu a {
+  padding: 15px;
   display: block;
   text-decoration: none;
+  background-color: #222;
   text-align: center;
+}
+
+.menu ul ul {
+  list-style: none;
+  position: absolute;
+  visibility: hidden;
+
+}
+
+.menu ul li:hover ul {
+  visibility: visible;
+}
+
+.menu a:hover {
+  background-color: #f4f4f4;
+}
+
+.menu ul ul li {
+  float: none;
+  border-bottom: solid 1px #ccc;
+}
+
+.menu ul ul li a {
+  background-color: #069;
+}
+
+#bt_menu {
+  display: none;
+}
+
+label[for='bt_menu'] {
+  padding: 5px;
+  background-color: #222;
+  color: #fff;
+  font-family: 'Arial';
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  width: 50px;
+  height: 50px;
+}
+
+label[for='bt_menu']:hover {
+  background-color: #f4f4f4;
+  color: #aaa;
 }
 
 .menu a:link {
@@ -103,18 +140,6 @@
   color: #858585;
 }
 
-#bt_menu {
-  display: none;
-}
-
-label [for="bt_menu"] {
-  display: none;
-}
-
-label img {
-  display: none;
-}
-
 @media screen and (max-width: 992px) {
 
   .topbar__container,
@@ -127,30 +152,19 @@ label img {
 
   .menu {
     margin-left: -100%;
+    transition: all .4s;
   }
 
-  label [for="bt_menu"] {
+  label[for='bt_menu'] {
     display: block;
   }
 
   .menu>ul {
+    margin-left: 0;
+  }
+
+  .menu {
     margin-top: 5px;
-  }
-
-  .menu ul li {
-    margin-left: 100%;
-    float: none;
-  }
-
-  .header__container label img {
-    display: flex;
-    max-width: 50px;
-    max-height: 50px;
-  }
-
-  .menu ul li {
-    position: absolute;
-    visibility: hidden;
   }
 
   .menu ul li {
@@ -158,14 +172,20 @@ label img {
     float: none;
   }
 
-  .menu ul {
+  .menu ul ul {
     position: static;
     overflow: hidden;
     max-height: 0;
-    transition: all .1s;
+    transition: all .4s;
   }
 
-  #bt_menu:checked ~ .menu {
+  .menu ul li:hover ul {
+    height: auto;
+    max-height: 200px;
+    transition: all .4s;
+  }
+
+  #bt_menu:checked~.menu {
     margin-left: 0;
   }
 
