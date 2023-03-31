@@ -67,7 +67,6 @@
 }
 
 .menu ul li {
-  margin: 0 0 0 105px;
   float: left;
 }
 
@@ -77,7 +76,9 @@
 }
 
 .menu a {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   text-decoration: none;
   text-align: center;
 }
