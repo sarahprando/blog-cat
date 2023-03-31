@@ -183,7 +183,12 @@ label[for='bt_menu'] {
 
   #bt_menu:checked~.menu {
     visibility: visible;
-    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #705a4340;
+    height: 100%;
+    width: 100%;
   }
 
   .header__container,
