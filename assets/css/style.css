@@ -38,11 +38,6 @@
   max-height: 25px;
 }
 
-a:hover img{
-  filter: drop-shadow(#858585);
-  opacity: 0.7;
-}
-
 .header {
   background: #F6F5EC;
 }
@@ -99,6 +94,15 @@ div.container-op a:hover {
   display: none;
 }
 
+#button {
+  display: none;
+}
+
+#button ~ ul {
+  right: 0;
+}
+
+
 @media screen and (max-width: 992px) {
  .topbar__container, .icon_topbar {
   display: flex;
@@ -123,7 +127,7 @@ div.container-op a:hover {
    display: none;
   }
 
-  .button--menu, .hamburguer {
+  .button--menu, .hamburguer, #button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,4 +135,16 @@ div.container-op a:hover {
     max-height: 40px;
     background: transparent;
   }
+
+  nav ul {
+    list-style: none;
+    background: #F6F5EC;
+    height: auto;
+    right: -100%;
+  }
+  
+  nav ul li {
+    padding: 20px;
+  }
+
 }
