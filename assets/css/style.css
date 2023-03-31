@@ -80,6 +80,14 @@
   color: #858585;
 }
 
+label [for="bt_menu"] {
+  display: none;
+}
+
+label img {
+  display: none;
+}
+
 @media screen and (max-width: 992px) {
 
   .topbar__container,
@@ -90,14 +98,46 @@
     margin: 0 30px;
   }
 
-  .header__container, .logo {
+  .logo {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .menu {
-    display: none;
+  #bt_menu:checked ~ .menu {
+    margin-left: 0;
+  }
+
+  label [for="bt_menu"] {
+    display: block;
+  }
+
+  .menu ul li {
+    margin-left: -100%;
+    transition: all .4s;
+  }
+
+  label img {
+    display: block;
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .menu ul li {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .menu ul li {
+    width: 100%;
+    float: none;
+  }
+
+  .menu ul {
+    position: static;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .4s;
   }
 }
 
