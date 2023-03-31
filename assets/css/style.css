@@ -56,22 +56,22 @@
 }
 
 .menu {
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .menu>ul {
   list-style: none;
   position: relative;
-  margin-left: 180px;
 }
 
 .menu ul li {
-  width: 150px;
+  margin: 0 0 0 105px;
   float: left;
 }
 
 .menu a {
-  padding: 15px;
   display: block;
   text-decoration: none;
   text-align: center;
@@ -89,7 +89,7 @@
 }
 
 .menu a:hover {
-  background-color: #f4f4f4;
+  color: #705A43;
 }
 
 .menu ul ul li {
