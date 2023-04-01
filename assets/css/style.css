@@ -44,23 +44,22 @@
 .header__container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin: 0 auto;
-  max-width: 1350px;
   height: 150px;
+  max-width: 1350px;
 }
 
-.logo {
-  max-width: 200px;
-  max-height: 140px;
-}
-
-.menu {
+.menu ul {
+  height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
-
+.menu li {
+  height: 100%;
+  margin: 0;
+  margin-left: 79px;
+}
 
 .menu a:link {
   color: #090705;
@@ -76,6 +75,20 @@
   color: #858585;
 }
 
+#bt_menu,
+.hamburguer {
+  display: none;
+}
+
+.menu ul li:hover ul {
+  visibility: visible;
+}
+
+.logo {
+  max-width: 200px;
+  max-height: 140px;
+}
+
 @media screen and (max-width: 992px) {
 
   .topbar__container,
@@ -86,63 +99,28 @@
     margin: 0 30px;
   }
 
-.menu{
-  visibility: hidden;
-
-}
-
-  label[for='bt_menu'] {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 20px;
-    max-height: 20px;
-    background: transparent;
-    
-  }
-
-  .menu>ul {
-    margin-left: 0;
-  }
-
-  .menu {
-    margin-top: 5px;
-  }
-
-  .menu ul li {
-    width: 100%;
-    float: none;
-  }
-
-  .menu ul ul {
-    position: static;
-    overflow: hidden;
-    max-height: 0;
-    transition: all .4s;
-  }
-
-  .menu ul li:hover ul {
-    height: auto;
-    max-height: 200px;
-    transition: all .4s;
-  }
-
-  #bt_menu:checked~.menu {
-    visibility: visible;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #705a4340;
-    height: 100%;
-    width: 100%;
-  }
-
   .header__container,
   .logo {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
+
+  .hamburguer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  .menu ul {
+    display: block;
+    text-align: center;
+    margin-right: -100%;
+  }
+
 
 }
 
