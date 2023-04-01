@@ -102,12 +102,11 @@
     margin: 0;
   }
 
-  .header__container,
-  .logo {
+  .header__container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-around;
+    padding: 0 5px;
   }
 
    .menu ul {
