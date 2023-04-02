@@ -130,11 +130,17 @@
   }
 
   .menu li {
-    margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 0 0 30px;
+    margin: 0;
+    height: 0;
+    margin-left: 0;
+  }
+
+  .menu a:hover {
+    display: none;
   }
 
   .menu {
