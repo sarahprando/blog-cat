@@ -101,7 +101,6 @@
 
   .menu ul {
     margin-top: 25px;
-    padding: 10px;
     display: block;
     text-align: center;
     height: 100%;
@@ -121,7 +120,7 @@
 
   .contato {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
@@ -172,6 +171,7 @@
   #bt_menu:checked~.header_navegation {
     visibility: visible;
     background-color: #ffffff;
+    padding: 15px;
     height: 100%;
     width: 340px;
     flex: 1;
