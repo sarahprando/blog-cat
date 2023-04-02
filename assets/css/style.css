@@ -126,9 +126,16 @@
     color: #090705;
   }
 
+  .header_navegation {
+    background: #F6F5EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .contato {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -156,8 +163,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
 
   .icon_close {
@@ -193,7 +200,6 @@
   #bt_menu:checked~.navegation {
     visibility: visible;
     background-color: #ffffff;
-    padding: 15px;
     height: 100%;
     width: 340px;
     flex: 1;
