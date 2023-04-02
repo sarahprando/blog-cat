@@ -51,11 +51,19 @@
   max-width: 1350px;
 }
 
-  
+
 #bt_menu,
 .hamburguer {
   display: none;
-}   
+}
+
+.contato {
+  display: none;
+}
+
+.icon_close {
+  display: none;
+}
 
 .menu ul {
   height: 100%;
@@ -70,19 +78,10 @@
   margin-left: 79px;
 }
 
-.logo {
-  text-align: center;
-}
-
-.logo_link {
-  display: block;
-}
-
 .logo img {
-  display: inline-block;
+  display: flex;
   width: 200px;
   height: 140px;
-  object-fit: contain;
 }
 
 
@@ -109,8 +108,7 @@
   }
 
   .menu ul {
-    margin-top: 25px;
-    padding: 10px;
+    margin-top: 40px;
     display: block;
     text-align: center;
     height: 100%;
@@ -128,7 +126,47 @@
     color: #090705;
   }
 
-  .menu {
+  .contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contato a {
+    color: #090705;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .icon_contato img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+  }
+
+  span.span_contato {
+    padding: 5px 0 0 5px;
+  }
+
+  .icon_close img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+  }
+
+  .icon_close  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navegation {
     position: fixed;
     top: 0;
     left: 0;
@@ -152,9 +190,10 @@
     max-height: 40px;
   }
 
-  #bt_menu:checked~.menu {
+  #bt_menu:checked~.navegation {
     visibility: visible;
     background-color: #ffffff;
+    padding: 15px;
     height: 100%;
     width: 340px;
     flex: 1;
@@ -162,32 +201,6 @@
     overflow: auto;
     transform: translate3d(0, 0, 0);
   }
-
-  .header_navegation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .header_navegation a{
-    color: #090705;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .icon_contato img {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 30px;
-    height: 30px;
-  }
-  
-  span.span_contato {
-    padding: 5px 0 0 5px;
-  }  
 
 }
 
@@ -202,23 +215,13 @@
     color: #090705;
     text-decoration: none;
   }
-  
+
   .menu a:visited {
     color: #090705;
     text-decoration: none;
   }
-  
+
   .menu a:hover {
     color: #858585;
   }
-
-  #close_menu,
-.close {
-  display: none;
-}
-
-.header_navegation {
-  display: none;
-}
-
 }
