@@ -70,19 +70,10 @@
   margin-left: 79px;
 }
 
-.logo {
-  text-align: center;
-}
-
-.logo_link {
-  display: block;
-}
-
 .logo img {
-  display: inline-block;
+  display: flex;
   width: 200px;
   height: 140px;
-  object-fit: contain;
 }
 
 
@@ -217,7 +208,7 @@
   display: none;
 }
 
-.header_navegation {
+.contato {
   display: none;
 }
 
