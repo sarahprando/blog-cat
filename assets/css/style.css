@@ -83,6 +83,11 @@
   display: none;
 }
 
+#close_menu,
+.close {
+  display: none;
+}
+
 .logo {
   text-align: center;
 }
@@ -130,10 +135,7 @@
   }
 
   .menu li {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0 0 30px;
+    padding: 0 0 50px;
     margin: 0;
     height: 0;
     margin-left: 0;
@@ -165,6 +167,14 @@
     align-items: center;
     max-width: 40px;
     max-height: 40px;
+  }
+
+  .close {
+    position: fixed;
+    left: 100%;
+    top: 0;
+    width: 45px;
+    height: 45px;
   }
 
   #bt_menu:checked~.menu {
