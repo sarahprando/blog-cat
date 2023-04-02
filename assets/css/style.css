@@ -88,6 +88,21 @@
   display: none;
 }
 
+/*.header_navegation {
+  display: none;
+}*/
+
+.header_navegation a {
+  color: #090705;
+  text-decoration: none;
+}
+
+.icon_contato {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+}
+
 .logo {
   text-align: center;
 }
