@@ -51,7 +51,7 @@
   max-width: 1350px;
 }
 
-  
+
 #bt_menu,
 .hamburguer {
   display: none;
@@ -60,6 +60,10 @@
 .contato {
   display: none;
 }
+
+ /*.icon_close {
+  display: none;
+}*/
 
 .menu ul {
   height: 100%;
@@ -135,18 +139,18 @@
     align-items: center;
     justify-content: space-between;
   }
-  
-  .icon_contato img {
+
+  .icon_close img, .icon_contato img {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 30px;
     height: 30px;
   }
-  
+
   span.span_contato {
     padding: 5px 0 0 5px;
-  }  
+  }
 
   .header_navegation {
     position: fixed;
@@ -197,19 +201,13 @@
     color: #090705;
     text-decoration: none;
   }
-  
+
   .menu a:visited {
     color: #090705;
     text-decoration: none;
   }
-  
+
   .menu a:hover {
     color: #858585;
   }
-
-  #close_menu,
-.close {
-  display: none;
-}
-
 }
