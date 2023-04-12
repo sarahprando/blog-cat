@@ -52,7 +52,7 @@
 }
 
 
-#bt_menu,
+#check,
 .hamburguer {
   display: none;
 }
@@ -61,7 +61,7 @@
   display: none;
 }
 
-#close,
+#check,
 .icon_close {
   display: none;
 }
@@ -189,7 +189,7 @@
     max-height: 40px;
   }
 
-  #bt_menu:checked~.navegation {
+  #check:checked~.navegation {
     visibility: visible;
     background-color: #ffffff;
     height: 100%;
