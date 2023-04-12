@@ -45,7 +45,7 @@
 .header__container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0 auto;
   height: 150px;
   max-width: 1350px;
@@ -79,10 +79,15 @@
   margin-left: 79px;
 }
 
+.header__logo {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
 .logo img {
   display: flex;
-  width: 200px;
-  height: 140px;
+  max-width: 200px;
+  max-height: 140px;
 }
 
 
@@ -106,6 +111,12 @@
     align-items: center;
     justify-content: space-around;
     padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  .header__logo {
+    -webkit-flex: 0;
+    flex: 0;
   }
 
   .menu ul {
@@ -131,7 +142,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
   }
 
   .contato {
@@ -223,4 +234,3 @@
     color: #858585;
   }
 }
-
