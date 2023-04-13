@@ -90,6 +90,14 @@
   max-height: 140px;
 }
 
+.full__banner img{
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 700px;
+}
+
 
 @media screen and (max-width: 992px) {
 
