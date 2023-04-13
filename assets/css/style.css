@@ -219,6 +219,14 @@
     transform: translate3d(0, 0, 0);
   }
 
+  .full__banner img{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 400px;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
