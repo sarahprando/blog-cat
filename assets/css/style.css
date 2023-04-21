@@ -141,6 +141,8 @@ ul.rulers__list {
   line-height: 30px;
 }
 
+
+
 @media screen and (max-width: 992px) {
 
   .topbar {
@@ -273,6 +275,16 @@ ul.rulers__list {
 }
 
 @media screen and (min-width: 992px) {
+
+  ::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color: #705a4365;
+    border: 3px solid #e0e0e0;
+}
 
   .icon_topbar a:hover img {
     filter: drop-shadow(#858585);
