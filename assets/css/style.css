@@ -89,7 +89,7 @@
   max-height: 140px;
 }
 
-.full__banner img{
+.full__banner img {
   display: block;
   position: relative;
   margin: auto;
@@ -264,12 +264,40 @@ ul.rulers__list {
     transform: translate3d(0, 0, 0);
   }
 
-  .full__banner img{
+  .full__banner img {
     display: block;
     position: relative;
     margin: auto;
     width: 100%;
     height: 300px;
+  }
+
+  .rulers {
+    display: flex;
+    align-items: center;
+    padding: 40px 0 25px;
+  }
+
+  ul.rulers__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .rulers__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .rulers__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 15px;
   }
 
 }
@@ -281,10 +309,10 @@ ul.rulers__list {
     width: 10px;
   }
 
-::-webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb {
     background-color: #705a4365;
     border: 3px solid #e0e0e0;
-}
+  }
 
   .icon_topbar a:hover img {
     filter: drop-shadow(#858585);
