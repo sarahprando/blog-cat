@@ -97,6 +97,48 @@
   height: 800px;
 }
 
+.rulers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 108px 0 153px;
+}
+
+.rulers__list ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rulers__item {
+  text-align: center;
+}
+
+.rulers__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rulers__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+  width: 64px;
+  height: 64px;
+}
+
+.rulers__text {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #090705;
+  line-height: 30px;
+}
 
 @media screen and (max-width: 992px) {
 
