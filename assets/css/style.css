@@ -12,10 +12,7 @@
   height: 30px;
 }
 
-.topbar__item1,
-.topbar__item2,
-.topbar__item3,
-.topbar__item4 {
+.topbar__item {
   display: flex;
   justify-content: space-between;
   align-items: center;
