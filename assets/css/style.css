@@ -96,7 +96,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 108px 0 153px;
+  padding: 50px 0 50px;
 }
 
 ul.rulers__list {
@@ -122,7 +122,7 @@ ul.rulers__list {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 50px;
+  margin: 15px;
   width: 64px;
   height: 64px;
 }
@@ -252,7 +252,7 @@ ul.rulers__list {
     visibility: visible;
     background-color: #ffffff;
     height: 100%;
-    width: 100%;
+    width: 90%;
     flex: 1;
     min-height: 0;
     overflow: auto;
