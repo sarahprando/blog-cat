@@ -169,19 +169,27 @@ ul.rulers__list {
   background: rgb(112, 90, 67, 12%);
 }
 
-.post__2 img, .post__3 img, .post__4 img {
+.post__2 img, .post__3 img, .post__4 img, .post__5 img {
   width: 335px;
   height: 350px;
   border-radius: 10px;
 }
 
-.post__2 p, .post__3 p, .post__4 p {
+.post__2 p, .post__3 p, .post__4 p, .post__5 p {
   padding: 0 20px 25px;
 }
 
 .post4__container {
   display: inline-block;
   margin-left: 66px;
+  margin-top: 50px;
+  width: 335px;
+  border-radius: 10px;
+  background: rgb(112, 90, 67, 12%);
+}
+
+.post5__container {
+  float: right;
   margin-top: 50px;
   width: 335px;
   border-radius: 10px;
