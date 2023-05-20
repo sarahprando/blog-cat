@@ -17,6 +17,15 @@
     font-family: inherit;
     vertical-align: baseline;
   }
+
+  main {
+    max-width: 100%;
+  }
+
+  .main__container {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
   
   .social {
     cursor: pointer;
@@ -36,4 +45,14 @@
     font-weight: normal;
   }
 
+  h3 {
+    text-align: center;
+    padding: 40px 0 40px;
+    font-size: 30px;
+    color: #090705;
+    font-weight: normal;
+  }
 
+  p {
+    padding: 0 30px 25px;
+  }

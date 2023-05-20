@@ -136,6 +136,13 @@ ul.rulers__list {
   line-height: 30px;
 }
 
+.post1__container {
+  margin: 0;
+  width: 700px;
+  border-radius: 10px;
+  background: rgb(112, 90, 67, 12%);
+}
+
 .post__1 {
   max-width: 1350px;
   margin: 0 auto;
@@ -143,6 +150,8 @@ ul.rulers__list {
 
 .post__1 img {
   border-radius: 10px;
+  height: 800px;
+  width: 700px;
 }
 
 
