@@ -168,18 +168,19 @@ ul.rulers__list {
   }
 
   .post__1 p {
-    padding: 0 30px 45px;
+    padding: 0 20px 20px;
   }
 
   .post2__container {
     grid-area: post2;
-    margin: 0 5% 0 0;
+    margin: 0 8% 0 0;
     border-radius: 10px;
     background: rgb(112, 90, 67, 12%);
   }
 
   .post3__container {
     grid-area: post3;
+    margin-left: 8%;
     border-radius: 10px;
     background: rgb(112, 90, 67, 12%);
   }
@@ -199,19 +200,20 @@ ul.rulers__list {
   .post__3 p,
   .post__4 p,
   .post__5 p {
-    padding: 0 20px 25px;
+    padding: 0 20px 20px;
   }
 
   .post4__container {
     grid-area: post4;
-    margin: 5% 5% 0 0;
+    margin: 15% 8% 0 0;
     border-radius: 10px;
     background: rgb(112, 90, 67, 12%);
   }
 
   .post5__container {
     grid-area: post5;
-    margin-top: 5%;
+    margin-top: 15%;
+    margin-left: 8%;
     border-radius: 10px;
     background: rgb(112, 90, 67, 12%);
   }
