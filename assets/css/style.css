@@ -233,9 +233,25 @@ ul.rulers__list {
 
 .instafeed a {
   padding: 20px 0 20px;
+  padding-bottom: 50px;
   font-size: 25px;
   color: #3D2F00;
   font-weight: lighter;
+}
+
+.img__insta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 10px;
+  max-width: 100%;
+}
+
+
+.img__insta img {
+  width: 460px;
+  height: 560px;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 992px) {
