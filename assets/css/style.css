@@ -196,6 +196,16 @@ ul.rulers__list {
   background: rgb(112, 90, 67, 12%);
 }
 
+#title__2 {
+  margin-top: 150px;
+}
+
+#minibanner1 img {
+  width: 550px;
+  height: 744px;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 992px) {
 
   .topbar {
