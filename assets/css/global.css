@@ -36,8 +36,12 @@
     margin: 0;
     padding: 0px;
   }
+
+  a {
+    text-decoration: none;
+  }
   
-  h1 {
+  #title__1 h1, #title__2 h1 {
     text-align: center;
     padding-bottom: 100px;
     font-size: 40px;
@@ -52,6 +56,7 @@
     color: #090705;
     font-weight: normal;
   }
+
 
   h4 {
     text-align: center;

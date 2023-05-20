@@ -154,7 +154,8 @@ ul.rulers__list {
   padding: 0 30px 45px;
 }
 
-.post2__container, .post6__container {
+.post2__container,
+.post6__container {
   display: inline-block;
   margin-left: 66px;
   width: 335px;
@@ -162,7 +163,8 @@ ul.rulers__list {
   background: rgb(112, 90, 67, 12%);
 }
 
-.post3__container, .post7__container {
+.post3__container,
+.post7__container {
   float: right;
   width: 335px;
   border-radius: 10px;
@@ -216,8 +218,24 @@ ul.rulers__list {
 }
 
 
-.post__6 p, .post__7 p {
+.post__6 p,
+.post__7 p {
   padding: 0 25px 45px;
+}
+
+#title__insta h1 {
+  padding-bottom: 50px;
+  margin-top: 150px;
+  text-align: center;
+  color: #090705;
+  font-weight: normal;
+}
+
+.instafeed a {
+  padding: 20px 0 20px;
+  font-size: 25px;
+  color: #3D2F00;
+  font-weight: lighter;
 }
 
 @media screen and (max-width: 992px) {
