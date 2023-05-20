@@ -1,8 +1,8 @@
-## <p align="center">Project #1</p>
-
-<p align="center">🛠️ Under Construction</p>
+<h1 align="center">Project #1</h1>
+<h3 align="center">🛠️ Under Construction</h3>
 <div style="display: inline_block" align="center">
- <a href="https://www.figma.com/proto/RBSB2aG8Gw9ux51qL3JgB5/blog-cat?page-id=0%3A1&node-id=1%3A5&viewport=-193%2C367%2C0.57&scaling=min-zoom"> Prototype 😸 </a>
+ <a href="https://sarahprando.github.io/blog-cat/">😸 Daily Cat </a>
+ <a href="https://www.figma.com/proto/RBSB2aG8Gw9ux51qL3JgB5/blog-cat?page-id=0%3A1&node-id=1%3A5&viewport=-193%2C367%2C0.57&scaling=min-zoom">🎨 Design</a>
  </div>
 
 <div style="display: inline_block" align="center"><br>
