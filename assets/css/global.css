@@ -53,6 +53,10 @@
     font-weight: normal;
   }
 
-  p {
-    padding: 0 30px 25px;
+  h4 {
+    text-align: center;
+    padding: 25px 0 25px;
+    font-size: 25px;
+    color: #090705;
+    font-weight: normal;
   }

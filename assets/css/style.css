@@ -137,21 +137,41 @@ ul.rulers__list {
 }
 
 .post1__container {
+  float: left;
   margin: 0;
   width: 700px;
   border-radius: 10px;
   background: rgb(112, 90, 67, 12%);
 }
 
-.post__1 {
-  max-width: 1350px;
-  margin: 0 auto;
-}
-
 .post__1 img {
   border-radius: 10px;
   height: 800px;
   width: 700px;
+}
+
+.post__1 p {
+  padding: 0 30px 25px;
+}
+
+.post2__container {
+  float: right;
+  margin: 0;
+  width: 426px;
+  border-radius: 10px;
+  background: rgb(112, 90, 67, 12%);
+}
+
+.post__2 img {
+  width: 426px;
+  height: 377px;
+  border-radius: 10px;
+}
+
+
+
+.post__2 p {
+  padding: 0 20px 25px;
 }
 
 
