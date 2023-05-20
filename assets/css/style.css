@@ -162,7 +162,7 @@ ul.rulers__list {
   background: rgb(112, 90, 67, 12%);
 }
 
-.post3__container {
+.post3__container, .post7__container {
   float: right;
   width: 335px;
   border-radius: 10px;
@@ -173,7 +173,8 @@ ul.rulers__list {
 .post__3 img,
 .post__4 img,
 .post__5 img,
-.post__6 img {
+.post__6 img,
+.post__7 img {
   width: 335px;
   height: 350px;
   border-radius: 10px;
@@ -215,7 +216,7 @@ ul.rulers__list {
 }
 
 
-.post__6 p {
+.post__6 p, .post__7 p {
   padding: 0 25px 45px;
 }
 
