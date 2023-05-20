@@ -96,7 +96,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 0 50px;
+  padding: 50px 0 80px;
 }
 
 ul.rulers__list {
@@ -136,6 +136,14 @@ ul.rulers__list {
   line-height: 30px;
 }
 
+.post__1 {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.post__1 img {
+  border-radius: 10px;
+}
 
 
 @media screen and (max-width: 992px) {
