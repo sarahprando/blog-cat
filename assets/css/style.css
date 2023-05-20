@@ -223,6 +223,12 @@ ul.rulers__list {
   padding: 0 25px 45px;
 }
 
+
+.instafeed {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 #title__insta h1 {
   padding-bottom: 50px;
   margin-top: 150px;
@@ -230,6 +236,7 @@ ul.rulers__list {
   color: #090705;
   font-weight: normal;
 }
+
 
 .instafeed a {
   padding: 20px 0 20px;
@@ -243,8 +250,9 @@ ul.rulers__list {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
   padding: 100px 10px;
-  max-width: 100%;
+  width: 100%;
 }
 
 
