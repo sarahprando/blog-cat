@@ -527,6 +527,37 @@ ul.rulers__list {
     margin-bottom: 30px;
   }
 
+  .instafeed {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    padding: 17px 12px;
+  }
+
+  .insta__container {
+    display: grid;
+    grid-template-areas:
+      "img1 img2"
+      "img3 img4";
+      grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+  }
+
+  .img1__insta, .img2__insta {
+    margin-bottom: 3%;
+  } 
+
+  .img2__insta {
+    margin-right: 0;
+  }
+
+  .img3__insta {
+    margin-right: 3%;
+  }
+
+  .img4__insta {
+    margin-left: 0;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
