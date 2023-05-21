@@ -1,5 +1,4 @@
 <h1 align="center">Project #1</h1>
-<h3 align="center">🛠️ Under Construction</h3>
 <div style="display: inline_block" align="center">
  <a href="https://sarahprando.github.io/blog-cat/">😸 Daily Cat </a>
  </div>
